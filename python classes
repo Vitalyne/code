@@ -1,0 +1,12 @@
+# introduction to python classes
+class student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def studDetails(self):
+            print(f"my name is{self.name} and am {self.age}years old")
+
+
+stud1 = student("vitalis", 21)
+stud1.studDetails()
